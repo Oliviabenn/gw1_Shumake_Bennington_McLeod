@@ -96,28 +96,32 @@ details {
 Main Styles
 
 ----------------- */
-main section figure img{
-	width: 275px;
-	display:inline-grid;
+  #about figure{
 	float: right;
-	padding-left: 15px;
-	padding-bottom: 7px;
-}
-
-
-}
-#about figcaption{
-	color: rgb(163, 64, 81);
-	font-style: italic;
-	font-size: 1.15em;
+	width: 40%;
 	text-align: center;
+	font-style: italic;
+	font-size: smaller;
+	margin: 0.5em;
+	padding: 0.5em;
+	position: relative;
+}
+#about figure img{
+	width: 100%;
+}
+#about .image-caption-text{
+	margin-top: 10px;
+  margin-left: -30px;
 }
 
-figcaption{
+figure figcaption{
+	position: relative;
 	color: rgb(163, 64, 81);
+	float: center;
 	font-style: italic;
-	font-size: 1.15em;
+	font-size: 18px;
 	text-align: center;
+	width: 300px;
 }
 
 #about, aside {
