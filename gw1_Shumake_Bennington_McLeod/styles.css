@@ -98,8 +98,19 @@ Main Styles
 ----------------- */
 main section figure img{
 	width: 275px;
+	display:inline-grid;
 	float: right;
-	margin: 10px 10px
+	padding-left: 15px;
+	padding-bottom: 7px;
+}
+
+
+}
+#about figcaption{
+	color: rgb(163, 64, 81);
+	font-style: italic;
+	font-size: 1.15em;
+	text-align: center;
 }
 
 figcaption{
@@ -139,11 +150,13 @@ p{
 	padding-top: 10px;
 }
 
+
 aside {
-	background-color: #808080;
+	background-color: rgb(188, 183, 181);
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	width: 32%;
 	padding: 2%;
+	height: 800px;
 }
 
 aside h2 {
@@ -158,8 +171,8 @@ aside h2 {
 aside figure img{
 	width: 50%;
 	padding-left: 75px;
-	padding-top: 15px;
-
+	padding-top: 30px;
+	padding-bottom: 7px;
 }
 
 footer {
