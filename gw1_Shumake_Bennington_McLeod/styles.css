@@ -96,6 +96,18 @@ details {
 Main Styles
 
 ----------------- */
+main section figure img{
+	width: 275px;
+	float: right;
+	margin: 10px 10px
+}
+
+figcaption{
+	color: rgb(163, 64, 81);
+	font-style: italic;
+	font-size: 1.15em;
+	text-align: center;
+}
 
 #about, aside {
 	padding: 20px 0;
@@ -141,6 +153,10 @@ aside h2 {
 	font-size: 1.5em;
 	font-weight: bold;
 	padding-bottom: 15px;
+}
+
+aside figure img{
+
 }
 
 footer {
